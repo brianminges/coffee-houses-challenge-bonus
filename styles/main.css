@@ -1,0 +1,105 @@
+@import 'shop.css';
+
+/* WHOLE PAGE  */
+
+a {
+  color: #122620; 
+}
+
+a:visited {
+  color: #122620;
+}
+
+a:hover {
+  /* font-size: 1.5rem; */
+  color: #B68D40;
+}
+
+/* HEADINGS */
+h1 {
+  color: #F4EBD0;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 10px;    
+  text-align: center;
+  text-shadow: 1px 1px 25px black;
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: black;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* NAVIGATION */
+.navbar__items {
+  background-color: #F4EBD0;
+  padding: 5px;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;  
+  gap: 30px;
+  font-size: 22px;
+  align-items: center;
+}
+
+.navbar__item {
+  padding-right: 10px;
+}
+
+/* #one {
+  margin-right: auto;
+} */
+
+/* CAPSULES */
+.shops {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;    
+  justify-content: space-evenly;
+}
+  
+.shop {
+  background-color: #F4EBD0;
+  border: solid 1px black; 
+  border-radius: 5%;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* .shop__combo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+} */
+
+.thewell {
+  flex: 2;
+}
+
+.shop__info {
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+/* IMAGES */
+img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  /* float: left; */
+  padding-right: 10px;
+}
+
+.navbar__img {
+  height: 75px;
+  width: 75px;
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+
